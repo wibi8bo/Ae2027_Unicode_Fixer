@@ -1,6 +1,6 @@
 # Ae 2027 Unicode Fixer
 
-> 修复 Adobe After Effects 2027（macOS / Apple 芯片）里第三方汉化插件弹窗「无法转换 unicode 字符」的问题。
+> 修复 Adobe After Effects 2027（macOS / Apple 芯片）里第三方汉化插件弹窗「无法转换 Unicode 字符」的问题。
 
 [![Release](https://img.shields.io/badge/release-v1.0-2ea44f)](https://github.com/wibi8bo/Ae2027_Unicode_Fixer/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-macOS%20arm64-lightgrey)](#适用环境)
