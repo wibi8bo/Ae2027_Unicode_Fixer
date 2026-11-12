@@ -1,2 +1,4 @@
 build/
+*.plugin
+*.zip
 .DS_Store
