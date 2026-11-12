@@ -186,6 +186,9 @@ codesign --force --deep -s - build/!00_UTF8_Fixer_2027.plugin
 | --- | --- |
 | v1.0 | 首个公开版本。改为 hook 宿主 `dvacore::string::UTF8to16`，覆盖 Saber / Element 等 `EntryPointFunc` 插件 |
 
+## 感谢
+感谢 B 站 up 主 @AdoreLowen 早起贡献，原仓库地址[AE-UTF8-Fixer](https://github.com/AdoreLowen/AE-UTF8-Fixer)
+
 ## 许可
 
 [MIT](LICENSE)
