@@ -113,7 +113,7 @@ sudo rm -rf "/Applications/Adobe After Effects 2027/Plug-ins/!00_UTF8_Fixer_2027
 
 - 效果（Effects）菜单里**不会**多出任何条目，插件在 Ae 启动时静默加载，属于正常现象。
 - Ae 27.x 小版本升级后通常仍然有效；如果某次 Adobe 大改后失效，请开 issue，会跟进更新。
-- 同一份插件**只能安装一次**。不要同时在 `Plug-ins/` 根目录和子目录里各放一份，否则会重复 hook 导致 AE 崩溃。
+- 同一份插件**只能安装一次**。不要同时在 `Plug-ins/` 根目录和子目录里各放一份，否则会重复 hook 导致 Ae 崩溃。
 - 插件为 ad-hoc 签名（无开发者证书），首次安装需要放行。
 
 ## 排查日志
@@ -138,7 +138,7 @@ sudo rm -rf "/Applications/Adobe After Effects 2027/Plug-ins/!00_UTF8_Fixer_2027
 临时关闭修复（用于对比验证）：
 
 ```bash
-launchctl setenv AE27_PASSTHROUGH 1    # 关闭，重启 AE 生效
+launchctl setenv AE27_PASSTHROUGH 1    # 关闭，重启 Ae 生效
 launchctl unsetenv AE27_PASSTHROUGH    # 恢复
 ```
 

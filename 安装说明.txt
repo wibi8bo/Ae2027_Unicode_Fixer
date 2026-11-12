@@ -31,7 +31,7 @@ UTF8_Fixer 插件进 Plug-ins 就能正常显示中文。升级到 Ae 2027 之�
 · macOS + Apple 芯片（M1 / M2 / M3 / M4）
 · Adobe After Effects 2027（27.0.x）中文版
 
-AE 2026 及更早版本请继续使用原来的 !00_UTF8_Fixer_M4.plugin，不需要本插件。
+Ae 2026 及更早版本请继续使用原来的 !00_UTF8_Fixer_M4.plugin，不需要本插件。
 
 
 三、下载

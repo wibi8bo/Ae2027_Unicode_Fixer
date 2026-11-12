@@ -1,11 +1,11 @@
 #!/bin/zsh
 
-# AE 2027 汉化插件「无法转换 unicode 字符」修复插件 —— 一键安装
+# Ae 2027 汉化插件「无法转换 unicode 字符」修复插件 —— 一键安装
 # 使用方法：把本文件与 !00_UTF8_Fixer_2027.plugin 放在同一个文件夹，双击运行。
 
 set -euo pipefail
 
-APP_TITLE="AE 2027 UTF-8 修复插件"
+APP_TITLE="Ae 2027 UTF-8 修复插件"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PLUGIN_NAME="!00_UTF8_Fixer_2027.plugin"
 PLUGIN_SRC="${SCRIPT_DIR}/${PLUGIN_NAME}"
@@ -22,12 +22,12 @@ if [ ! -d "${PLUGIN_SRC}" ]; then
 fi
 
 if [ ! -d "${AE_DIR}" ]; then
-  msg "未找到 Adobe After Effects 2027。\\n请确认已安装 AE 2027（27.0）后再运行。" stop
+  msg "未找到 Adobe After Effects 2027。\\n请确认已安装 Ae 2027（27.0）后再运行。" stop
   exit 1
 fi
 
 if pgrep -x "After Effects" >/dev/null; then
-  msg "After Effects 正在运行，请先完全退出 AE 再安装。" caution
+  msg "After Effects 正在运行，请先完全退出 Ae 再安装。" caution
   exit 1
 fi
 
